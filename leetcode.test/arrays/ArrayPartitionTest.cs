@@ -3,19 +3,18 @@
 namespace leetcode.test.arrays
 {
     [TestClass]
-    public class AssignCookiesTest
+    public class ArrayPartitionTest
     {
         [TestMethod]
         public void TestMethod1()
         {
             // Arrange
-            int[] g = { 1, 2, 3 };
-            int[] s = { 1, 1 };
+            int[] nums = { 1, 4, 3, 2 };
 
-            int expected = 1;
+            int expected = 4;
 
             // Act
-            int actual = AssignCookies.Solution(g, s);
+            int actual = ArrayPartition.Solution(nums);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -25,13 +24,12 @@ namespace leetcode.test.arrays
         public void TestMethod2()
         {
             // Arrange
-            int[] g = { 1, 2 };
-            int[] s = { 1, 2, 3 };
+            int[] nums = { 6, 2, 6, 5, 1, 2 };
 
-            int expected = 2;
+            int expected = 9;
 
             // Act
-            int actual = AssignCookies.Solution(g, s);
+            int actual = ArrayPartition.Solution(nums);
 
             // Assert
             Assert.AreEqual(expected, actual);

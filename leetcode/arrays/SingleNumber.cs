@@ -2,7 +2,7 @@
 {
     public static class SingleNumber
     {
-        public static int Find(int[] nums)
+        public static int Solution(int[] nums)
         {
             Dictionary<int, int> map = new Dictionary<int, int>();
 

@@ -17,7 +17,7 @@ namespace leetcode.test.arrays
             int[] expected = { 1, 2, 2, 3, 5, 6 };
 
             // Act
-            MergeSortedArray.Merge(nums1, m, nums2, n);
+            MergeSortedArray.Solution(nums1, m, nums2, n);
             int[] actual = nums1;
 
             // Assert
@@ -36,7 +36,7 @@ namespace leetcode.test.arrays
             int[] expected = { 1 };
 
             // Act
-            MergeSortedArray.Merge(nums1, m, nums2, n);
+            MergeSortedArray.Solution(nums1, m, nums2, n);
             int[] actual = nums1;
 
             // Assert
@@ -55,7 +55,7 @@ namespace leetcode.test.arrays
             int[] expected = { 1 };
 
             // Act
-            MergeSortedArray.Merge(nums1, m, nums2, n);
+            MergeSortedArray.Solution(nums1, m, nums2, n);
             int[] actual = nums1;
 
             // Assert

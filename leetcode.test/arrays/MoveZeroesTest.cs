@@ -13,7 +13,7 @@ namespace leetcode.test.arrays
             int[] expected = { 1, 3, 12, 0, 0 };
 
             // Act
-            MoveZeroes.move(nums);
+            MoveZeroes.Solution(nums);
             int[] actual = nums;
 
             // Assert
@@ -28,7 +28,7 @@ namespace leetcode.test.arrays
             int[] expected = { 0 };
 
             // Act
-            MoveZeroes.move(nums);
+            MoveZeroes.Solution(nums);
             int[] actual = nums;
 
             // Assert
@@ -43,7 +43,7 @@ namespace leetcode.test.arrays
             int[] expected = { 1, 0, 0 };
 
             // Act
-            MoveZeroes.move(nums);
+            MoveZeroes.Solution(nums);
             int[] actual = nums;
 
             // Assert

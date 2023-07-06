@@ -2,7 +2,7 @@
 {
     public static class AssignCookies
     {
-        public static int FindContentChildren(int[] children, int[] cookies)
+        public static int Solution(int[] children, int[] cookies)
         {
             Array.Sort(children);
             Array.Sort(cookies);

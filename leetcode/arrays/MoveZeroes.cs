@@ -2,7 +2,7 @@
 {
     public static class MoveZeroes
     {
-        public static void move(int[] nums)
+        public static void Solution(int[] nums)
         {
             int i = 0;
 

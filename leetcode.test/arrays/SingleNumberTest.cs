@@ -13,7 +13,7 @@ namespace leetcode.test.arrays
             int expected = 1;
 
             // Act
-            int actual = SingleNumber.Find(nums);
+            int actual = SingleNumber.Solution(nums);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -27,7 +27,7 @@ namespace leetcode.test.arrays
             int expected = 4;
 
             // Act
-            int actual = SingleNumber.Find(nums);
+            int actual = SingleNumber.Solution(nums);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -41,7 +41,7 @@ namespace leetcode.test.arrays
             int expected = 1;
 
             // Act
-            int actual = SingleNumber.Find(nums);
+            int actual = SingleNumber.Solution(nums);
 
             // Assert
             Assert.AreEqual(expected, actual);
