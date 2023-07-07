@@ -1,4 +1,4 @@
-﻿namespace leetcode.arrays
+﻿namespace leetcode.arrays.easy
 {
     public static class PlusOne
     {

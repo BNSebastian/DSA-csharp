@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace leetcode.arrays
+﻿namespace leetcode.arrays.easy
 {
     public static class NextGreaterElement1
     {

@@ -1,6 +1,6 @@
-﻿using leetcode.arrays;
+﻿using leetcode.arrays.easy;
 
-namespace leetcode.test.arrays
+namespace leetcode.test.arrays.easy
 {
     [TestClass]
     public class MergeSortedArrayTest

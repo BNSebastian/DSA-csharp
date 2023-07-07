@@ -1,20 +1,19 @@
-﻿using leetcode.arrays;
+using leetcode.arrays.easy;
 
-namespace leetcode.test.arrays
+namespace leetcode.test.arrays.easy
 {
     [TestClass]
-    public class MoveZeroesTest
+    public class PlusOneTest
     {
         [TestMethod]
         public void TestMethod1()
         {
             // Arrange
-            int[] nums = { 0, 1, 0, 3, 12 };
-            int[] expected = { 1, 3, 12, 0, 0 };
+            int[] input = { 1, 2, 3 };
+            int[] expected = { 1, 2, 4 };
 
             // Act
-            MoveZeroes.Solution(nums);
-            int[] actual = nums;
+            int[] actual = PlusOne.Solution(input);
 
             // Assert
             CollectionAssert.AreEqual(expected, actual);
@@ -24,12 +23,11 @@ namespace leetcode.test.arrays
         public void TestMethod2()
         {
             // Arrange
-            int[] nums = { 0 };
-            int[] expected = { 0 };
+            int[] input = { 4, 3, 2, 1 };
+            int[] expected = { 4, 3, 2, 2 };
 
             // Act
-            MoveZeroes.Solution(nums);
-            int[] actual = nums;
+            int[] actual = PlusOne.Solution(input);
 
             // Assert
             CollectionAssert.AreEqual(expected, actual);
@@ -39,12 +37,11 @@ namespace leetcode.test.arrays
         public void TestMethod3()
         {
             // Arrange
-            int[] nums = { 0, 0, 1 };
-            int[] expected = { 1, 0, 0 };
+            int[] input = { 9 };
+            int[] expected = { 1, 0 };
 
             // Act
-            MoveZeroes.Solution(nums);
-            int[] actual = nums;
+            int[] actual = PlusOne.Solution(input);
 
             // Assert
             CollectionAssert.AreEqual(expected, actual);
