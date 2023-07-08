@@ -14,7 +14,7 @@ namespace leetcode.test.easy.bits
             var expected = 3;
 
             // Act
-            var actual = NumberOfOneBits.HammingWeight(input);
+            var actual = NumberOfOneBits.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -29,7 +29,7 @@ namespace leetcode.test.easy.bits
             var expected = 1;
 
             // Act
-            var actual = NumberOfOneBits.HammingWeight(input);
+            var actual = NumberOfOneBits.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -44,7 +44,7 @@ namespace leetcode.test.easy.bits
             var expected = 31;
 
             // Act
-            var actual = NumberOfOneBits.HammingWeight(input);
+            var actual = NumberOfOneBits.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);

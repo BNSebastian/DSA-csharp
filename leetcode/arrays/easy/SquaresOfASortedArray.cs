@@ -22,7 +22,7 @@ namespace leetcode.arrays.easy
 {
     public static class SquaresOfASortedArray
     {
-        public static int[] SortedSquares(int[] nums)
+        public static int[] Solution(int[] nums)
         {
             var output = new int[nums.Length];
 

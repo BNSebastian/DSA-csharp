@@ -12,7 +12,7 @@ namespace leetcode.test.stacks.easy
             var input = "()";
 
             // Act
-            var actual = ValidParantheses.IsValid(input);
+            var actual = ValidParantheses.Solution(input);
 
             // Assert
             Assert.IsTrue(actual);
@@ -25,7 +25,7 @@ namespace leetcode.test.stacks.easy
             var input = "()[]{}";
 
             // Act
-            var actual = ValidParantheses.IsValid(input);
+            var actual = ValidParantheses.Solution(input);
 
             // Assert
             Assert.IsTrue(actual);
@@ -38,7 +38,7 @@ namespace leetcode.test.stacks.easy
             var input = "(]";
 
             // Act
-            var actual = ValidParantheses.IsValid(input);
+            var actual = ValidParantheses.Solution(input);
 
             // Assert
             Assert.IsFalse(actual);

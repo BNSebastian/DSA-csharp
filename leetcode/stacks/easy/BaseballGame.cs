@@ -62,7 +62,7 @@ namespace leetcode.stacks.easy
 {
     public static class BaseballGame
     {
-        public static int CalPoints(string[] operations)
+        public static int Solution(string[] operations)
         {
             Stack<int> scores = new Stack<int>();
 

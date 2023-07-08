@@ -13,7 +13,7 @@ namespace leetcode.test.stacks.easy
             var expected = "leetcode";
 
             // Act
-            var actual = MakeTheStringGreat.MakeGood(input);
+            var actual = MakeTheStringGreat.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -27,7 +27,7 @@ namespace leetcode.test.stacks.easy
             var expected = "";
 
             // Act
-            var actual = MakeTheStringGreat.MakeGood(input);
+            var actual = MakeTheStringGreat.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -41,7 +41,7 @@ namespace leetcode.test.stacks.easy
             var expected = "s";
 
             // Act
-            var actual = MakeTheStringGreat.MakeGood(input);
+            var actual = MakeTheStringGreat.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);

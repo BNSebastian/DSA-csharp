@@ -28,7 +28,7 @@ namespace leetcode.arrays.medium
 {
     public static class ContainerWithMostWater
     {
-        public static int MaxArea(int[] height)
+        public static int Solution(int[] height)
         {
             int left = 0, right = height.Length - 1, maxWater = 0;
 

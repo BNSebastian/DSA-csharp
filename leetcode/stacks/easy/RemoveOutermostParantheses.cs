@@ -44,7 +44,7 @@ namespace leetcode.stacks.easy
 {
     public static class RemoveOutermostParantheses
     {
-        public static string RemoveOuterParentheses(string s)
+        public static string Solution(string s)
         {
             var stack = new Stack<char>();
             var builder = new StringBuilder();

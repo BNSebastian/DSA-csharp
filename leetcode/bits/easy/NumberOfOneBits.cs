@@ -41,7 +41,7 @@ namespace leetcode.easy.bits
 {
     public static class NumberOfOneBits
     {
-        public static int HammingWeight(uint n)
+        public static int Solution(uint n)
         {
             int count = 0;
 

@@ -30,7 +30,7 @@ namespace leetcode.stacks.easy
 {
     public static class BackspaceStringCompare
     {
-        public static string Converter(string s)
+        public static string Solution(string s)
         {
             Stack<char> stack = new Stack<char>();
 
@@ -51,7 +51,7 @@ namespace leetcode.stacks.easy
 
         public static bool BackspaceCompare(string s, string t)
         {
-            return Converter(s) == Converter(t);
+            return Solution(s) == Solution(t);
         }
     }
 }

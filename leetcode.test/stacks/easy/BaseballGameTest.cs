@@ -13,7 +13,7 @@ namespace leetcode.test.stacks.easy
             var expected = 30;
 
             // Act
-            var actual = BaseballGame.CalPoints(input);
+            var actual = BaseballGame.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -27,7 +27,7 @@ namespace leetcode.test.stacks.easy
             var expected = 27;
 
             // Act
-            var actual = BaseballGame.CalPoints(input);
+            var actual = BaseballGame.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -41,7 +41,7 @@ namespace leetcode.test.stacks.easy
             var expected = 0;
 
             // Act
-            var actual = BaseballGame.CalPoints(input);
+            var actual = BaseballGame.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);

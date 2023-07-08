@@ -13,7 +13,7 @@ namespace leetcode.test.arrays.easy
             var expected = new int[] { 0, 1, 9, 16, 100 };
 
             // act
-            var actual = SquaresOfASortedArray.SortedSquares(input);
+            var actual = SquaresOfASortedArray.Solution(input);
 
             // assert
             CollectionAssert.AreEqual(expected, actual);
@@ -27,7 +27,7 @@ namespace leetcode.test.arrays.easy
             var expected = new int[] { 4, 9, 9, 49, 121 };
 
             // act
-            var actual = SquaresOfASortedArray.SortedSquares(input);
+            var actual = SquaresOfASortedArray.Solution(input);
 
             // assert
             CollectionAssert.AreEqual(expected, actual);

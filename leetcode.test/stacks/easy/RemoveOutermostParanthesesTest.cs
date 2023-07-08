@@ -14,7 +14,7 @@ namespace leetcode.test.stacks.easy
             var expected = "()()()";
 
             // Act
-            var actual = RemoveOutermostParantheses.RemoveOuterParentheses(input);
+            var actual = RemoveOutermostParantheses.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -28,7 +28,7 @@ namespace leetcode.test.stacks.easy
             var expected = "()()()()(())";
 
             // Act
-            var actual = RemoveOutermostParantheses.RemoveOuterParentheses(input);
+            var actual = RemoveOutermostParantheses.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -42,7 +42,7 @@ namespace leetcode.test.stacks.easy
             var expected = "";
 
             // Act
-            var actual = RemoveOutermostParantheses.RemoveOuterParentheses(input);
+            var actual = RemoveOutermostParantheses.Solution(input);
 
             // Assert
             Assert.AreEqual(expected, actual);

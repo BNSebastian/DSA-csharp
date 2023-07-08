@@ -31,7 +31,7 @@ namespace leetcode.stacks.easy
 {
     public static class ValidParantheses
     {
-        public static bool IsValid(string phrase)
+        public static bool Solution(string phrase)
         {
             var stack = new Stack<char>();
 

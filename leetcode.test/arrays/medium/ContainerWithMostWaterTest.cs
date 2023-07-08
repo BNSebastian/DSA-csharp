@@ -14,7 +14,7 @@ namespace leetcode.test.arrays.medium
             var expected = 49;
 
             // Act
-            int actual = ContainerWithMostWater.MaxArea(height);
+            int actual = ContainerWithMostWater.Solution(height);
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -29,7 +29,7 @@ namespace leetcode.test.arrays.medium
             var expected = 1;
 
             // Act
-            int actual = ContainerWithMostWater.MaxArea(height);
+            int actual = ContainerWithMostWater.Solution(height);
 
             // Assert
             Assert.AreEqual(expected, actual);

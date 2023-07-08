@@ -40,7 +40,7 @@ namespace leetcode.stacks.easy
 {
     public static class MakeTheStringGreat
     {
-        public static string MakeGood(string s)
+        public static string Solution(string s)
         {
             var stack = new Stack<char>();
 

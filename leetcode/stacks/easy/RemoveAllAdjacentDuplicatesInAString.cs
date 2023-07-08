@@ -27,7 +27,7 @@ namespace leetcode.stacks.easy
 {
     public static class RemoveAllAdjacentDuplicatesInAString
     {
-        public static string RemoveDuplicates(string s)
+        public static string Solution(string s)
         {
             var stack = new Stack<char>();
 
