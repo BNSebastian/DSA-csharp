@@ -29,6 +29,14 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 
 #endregion
 
+#region Description
+
+/*
+
+*/
+
+#endregion
+
 namespace leetcode.easy.bits
 {
     public static class NumberOfOneBits

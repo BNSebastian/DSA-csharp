@@ -27,14 +27,6 @@ Output: false
 
 #endregion
 
-#region Description
-
-/*
-
-*/
-
-#endregion
-
 namespace leetcode.stacks.easy
 {
     public static class ValidParantheses
