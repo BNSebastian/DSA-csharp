@@ -20,8 +20,4 @@
     <ProjectReference Include="..\leetcode\leetcode.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="maps\easy\" />
-  </ItemGroup>
-
 </Project>
